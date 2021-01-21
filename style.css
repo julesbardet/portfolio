@@ -180,9 +180,9 @@ img{
   display:flex;
   justify-content:center;
   align-items:flex-end;
-  color:#fff;
+  color:#000;
   opacity:1;
-  background:rgba(0,0,0,0.8);
+  /* background:rgba(0,0,0,0.8); */
   transition:opacity .8s;
   padding:24px;
 }
