@@ -187,6 +187,8 @@ img{
   padding:24px;
 }
 
+.a-white{ color: #FFF;}
+
 /* le survol */
 .a-txt:hover{
   opacity:0;
