@@ -2,89 +2,90 @@
 <!-- https://www.w3schools.com/w3css/w3css_slideshow.asp -->
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../diapo.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="../diapo.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="pleinepage" onload="toggleFullScreen()">
-        <div class="slideshow-container" >
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="../images/croquis/croquis1.jpg" class="visuel">
-                <div class="text"></div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="../images/croquis/croquis2.jpg" class="visuel">
-                <div class="text"></div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="../images/croquis/croquis3.jpg" class="visuel">
-                <div class="text"></div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="../images/croquis/croquis4.jpg" class="visuel">
-                <div class="text"></div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="../images/croquis/croquis5.jpg" class="visuel">
-                <div class="text"></div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="../images/croquis/croquis6.jpg" class="visuel">
-                <div class="text"></div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="../images/croquis/croquis7.jpg" class="visuel">
-                <div class="text"></div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="../images/croquis/croquis8.jpg" class="visuel">
-                <div class="text"></div>
-           </div>
-           <div class="mySlides fade">
-               <div class="numbertext">2 / 3</div>
-               <img src="../images/croquis/croquis9.jpg" class="visuel">
-               <div class="text"></div>
-          </div>
-          <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
-              <img src="../images/croquis/croquis10.jpg" class="visuel">
-              <div class="text"></div>
-         </div>
-           <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="../images/croquis/croquis11.jpg.png" class="visuel">
-                <div class="text"></div>
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            <div class="nav" >
-                <!-- <a onclick="toggleFullScreen('fson','fsoff')">
+  <div class="pleinepage" onload="toggleFullScreen()">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="../images/croquis/croquis1.jpg" class="visuel">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/croquis/croquis2.jpg" class="visuel">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/croquis/croquis3.jpg" class="visuel">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/croquis/croquis4.jpg" class="visuel">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/croquis/croquis5.jpg" class="visuel">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/croquis/croquis6.jpg" class="visuel">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="../images/croquis/croquis7.jpg" class="visuel">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/croquis/croquis8.jpg" class="visuel">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/croquis/croquis9.jpg" class="visuel">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/croquis/croquis10.jpg" class="visuel">
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../images/croquis/croquis11.jpg.png" class="visuel">
+        <div class="text"></div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div class="nav">
+        <!-- <a onclick="toggleFullScreen('fson','fsoff')">
                     <img id="fson" src= "../images/fullscreen_on.png">
                     <img id="fsoff" src= "../images/fullscreen_off.png">
                 </a></br> -->
-                <a href="../index.html" id="exit"><img id="exit" src= "../images/exit.png"></a>
-            </div>
-            <!-- <div style="text-align:right">
+        <a href="../index.html" id="exit"><img id="exit" src="../images/exit.png"></a>
+      </div>
+      <!-- <div style="text-align:right">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div> -->
-        </div>
-
     </div>
-    <script src="../diapo.js"></script>
+
+  </div>
+  <script src="../diapo.js"></script>
 </body>
 
 </html>
